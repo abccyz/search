@@ -1,0 +1,11 @@
+userName=root
+passWord=admin123
+driverClassName=com.mysql.jdbc.Driver
+url=jdbc:mysql://localhost:3306/teatalkingservice
+#time out set
+timeOut=10
+#kill time out thread
+killsConnection=20
+#key Words
+keyW=search,path,tableName,make,list,pageSize,page,baseAction
+keyMake=-
