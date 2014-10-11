@@ -23,6 +23,7 @@ import com.cyz.search.reflect.TableName;
  * </pre>
  **/
 public class DoSearch {
+	
 	// 查询结果集
 	List<CglibBean> list = null;
 	// 条件拼接
