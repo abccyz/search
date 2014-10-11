@@ -228,18 +228,7 @@ public class DoSearch {
 		DoSearch doSearch = new DoSearch();
 
 		OJDBC ojdbc = new OJDBC();
-
-//		List<CglibBean> list = (List<CglibBean>) ojdbc.dynamicSQL(
-//				"select * from s_teausercard",
-//				"s_teausercard");
-		
-		
-		/*for (CglibBean cglibBean : list) {
-			System.out.println(cglibBean.getValue("cardno")+":"+cglibBean.getValue("opentime"));
-		}
-		if(list.size()<=0){
-			System.err.print("未查询到符合的记录 ！");
-		}*/
+ 
 		List<CglibBean> lists=	(List<CglibBean>) doSearch.fastSearch("s_usersignin");
 		for (CglibBean cglibBean : lists) {
 			System.out.println(cglibBean.getValue("id")+":"+cglibBean.getValue("status"));
